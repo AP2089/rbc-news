@@ -1,0 +1,15 @@
+// Inter
+@include font-face(
+  'Inter',
+  (
+    (Inter-Medium, 500, normal),
+    (Inter-ExtraBold, bold, normal),
+    (Inter-Thin, 100, normal),
+    (Inter-Regular, normal, normal),
+    (Inter-Light, 300, normal),
+    (Inter-SemiBold, 600, normal),
+    (Inter-ExtraLight, 200, normal),
+    (Inter-Bold, bold, normal),
+    (Inter-Black, 900, normal)
+  )
+);

@@ -1,0 +1,15 @@
+// font
+$font-global: 'Inter', sans-serif;
+$font-path: '@/assets/fonts';
+
+// transition
+$transition-duration-base: 0.3s;
+$transition-timing-base: linear;
+$transition-base: $transition-duration-base $transition-timing-base 0s;
+
+// breakpoint
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;

@@ -1,0 +1,7 @@
+@function wrap-var($value) {
+  @if str-slice("#{$value}", 0, 2) == "--" {
+    @return var($value);
+  }
+
+  @return $value;
+}
